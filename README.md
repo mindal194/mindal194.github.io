@@ -1,2 +1,94 @@
-# mindal194.github.io
-website
+<html>
+<head>
+<title>Events</title>
+</head>
+<body>
+    
+    <center>
+        <h1 class="eventsoon">event, that is currently running</h1>
+
+        <a target="_blank" href="nothing">
+        <div class="eventBtn1">
+        <h1 class="eventone">Event 1</h1>
+        <img src="https://cdn.discordapp.com/attachments/648183431301169222/809833734148849744/GJ_longBtn04_001.png">
+        </div>
+        </a>
+
+        <h1 class="comingsoon">an event, that is scheduled to be released soon</h1>
+
+        <div class="eventsoonOBJ">
+        <img src="https://cdn.discordapp.com/attachments/648183431301169222/809850746509721630/island_fire_locked_001.png" width="100">
+        </div>
+
+        <h1 class="comingsoon">Coming soon...</h1>
+    </center>
+
+<style>
+
+        
+        body {
+        background-image: linear-gradient(180deg,#000000, #4891ff);
+                }
+
+        @font-face {
+        font-family: 'pusab'; 
+        src: url(PUSAB-.otf); 
+                }
+
+        h1 {
+        font-weight: normal;
+        margin: 0% 0%;
+        font-size: 6vh;
+        font-family: 'pusab';
+        color: white;
+        letter-spacing: 0.02em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-shadow: -0.275vh -0.275vh 0vh #000, 0.275vh -0.275vh 0vh #000, -0.275vh 0.275vh 0vh #000, 0.275vh 0.275vh 0vh #000, 0.5vh 0.6vh 0vh rgba(0,0,0,0.4);
+        -webkit-text-size-adjust: 100%;
+        line-height: 100%;
+                }
+
+        div.eventBtn1 {
+        position: absolute;
+        top: 90px;
+        left: 500px;
+        transition-property: filter;
+        transition: ease-in cubic-bezier(0.075, 0.82, 0.165, 1);
+        z-index: 1;
+                }
+
+        div.eventBtn1:hover {
+        filter: hue-rotate(50deg);
+                }
+
+        h1.eventone {
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        z-index: 2;
+        }
+
+        h1.eventsoon {
+        position: absolute;
+        top: 230px;
+        left: 260px;
+        z-index: 2;
+        }
+
+        div.eventsoonOBJ {
+        position: absolute;
+        top: 300px;
+        left: 560px;
+        z-index: 1;
+                }
+
+        h1.comingsoon {
+        position: absolute;
+        top: 490px;
+        left:460px;
+        z-index: 2;
+        }
+</style>
+</body>
+</html>

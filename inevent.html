@@ -246,8 +246,9 @@
 <script>
     $(document).ready(function(){
         //Скрыть PopUp при загрузке страницы    
-        PopUpHide();
-    });
+    function PopUpHide(){
+        $("#popup1").hide();
+    }});
     //Функция отображения PopUp
     function PopUpShow(){
         $("#popup1").show();
